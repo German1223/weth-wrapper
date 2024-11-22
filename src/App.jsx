@@ -107,7 +107,7 @@ function App() {
       <h1>ETH ↔ WETH  Converter</h1>
       <h2>Sepolia network is used</h2>
       {!address ? (
-        <button onClick={connectWallet}>Підключити MetaMask</button>
+        <button onClick={connectWallet}>Connect MetaMask</button>
       ) : (
         <div>
           <p><b>Account:</b> {address}</p>
